@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.generic--body{
+    background-color: #333;
+}
+
+
+
+.hero--container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #111;
+}
+
+.hero--dog-img{
+    position: fixed;
+    width: 45vw;
+    top: 5vh;
+}
+
+.hero--top-logo-img{
+    width: 5vw;
+}
+
+.hero--top-container{
+    z-index: 10;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.700);
+    border: 3px solid black;
+    padding: 5px;
+    top: 3vh;
+    width: 95vw;
+    left: 2vw;
+    height: 6vw;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.500);
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 600;
+    display: flex;
+}
+
+.hero--top-container:hover{
+    background-color: rgba(120, 120, 120, 0.500);
+    color: white;
+}
+
+.hero--top-title-container{
+    display: flex;
+    font-size: 3.5vw;
+}
+
+.hero--top-logo-img{
+    position: relative;
+    margin-left: 1vw;
+}
+
+
+
+.hero--top-title{
+    margin-left: 3vw;
+    margin-top: 2%;
+}
+
+.hero--top-menu-container{
+    position: absolute;
+    right: 2vw;
+    top: 0;
+}
+
+.hero--top-funnel-img{
+    width: 80%;
+    height: 80%;
+    margin-top: 1.5vh;
+    z-index: 2;
+}
+
+.hero--right-container{
+    position: absolute;
+    top: 18vh;
+    right: 2vw;
+    height: 50vh;
+    width: 34.5vw;
+    border: 1px solid rgba(255, 255, 255, 0.600);
+    background-color: rgba(255, 255, 255, 0.100);
+    border-radius: 15px;
+    overflow-y: scroll;
+    color: white;
+    padding: 10px;
+}
+
+.hero--right-container:hover{
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0.300);
+}
+
+.hero--menu-container{
+    position: fixed;
+    top: 18vh;
+    left: 2vw;
+    height: auto;
+    width: max-content;
+}
+
+.hero--menu{
+    z-index: 100;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.600);
+    background-color: rgba(0, 0, 0, 0.700);
+    border-radius: 15px;
+    margin-right: 2vw;
+    color: rgba(255, 255, 255, 0.600);
+    font-family: cursive;
+    font-size: 1.7vw;
+    text-decoration: none;
+}
+
+.hero--menu:hover{
+    border-color: white;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.300);
+}
+
+.logo--img-container{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 53vw;
+}
+
+/* .logo2--container{
+    position: absolute;
+    padding: 5px;
+    left: 90;
+    background-color: #fff;
+    width: auto;
+    height: auto;
+} */
+
+.logo--gf-img{
+    width: 3vw;
+    margin-top: 1px;
+    margin-left: 1vw;
+}
+
+.logo2--gf{
+    position: absolute;
+    left: 37vw;
+}
+
+.generic--menu-container{
+    top: 2vw;
+}
+
+.generic--menu{
+    background-color: hsla(0, 0%, 0%, 0.700);
+    margin-right: 1.5vw;
+    margin-left: 1.0vw;
+    font-size: 1.5vw;
+}
+
+.hero--video{
+    z-index: 1;
+    position: absolute;
+    width: 40vw;
+    border-radius: 10px;
+    left: 2vw;
+    top: 27vh;
+}
+
+.hero--top-story{
+    position: absolute;
+    width: 16vw;
+    height: 41vh;
+    top: 27vh;
+    left: 44vw;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.600);
+    background-color: rgba(255, 255, 255, 0.100);
+    border-radius: 15px;
+    overflow-y: scroll;
+}
+
+.hero--top-story:hover{
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0.300);
+}
+
+.hero--bottom-add{
+    position: absolute;
+    width: 96vw;
+    height: 24vh;
+    bottom: 2vh;
+    left: 1vw;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.600);
+    background-color: rgba(255, 255, 255, 0.100);
+    border-radius: 15px;
+    overflow-y: scroll;
+}
+
+.hero--bottom-add:hover{
+    background-color: rgba(255, 255, 255, 0.300);
+    border-color: white;
+}
+
+.hr{
+    border: 10px solid white;
+}
+
+.form--adopta-container{
+    position: absolute;
+    top: 3vh;
+    right: 10vw;
+    width: 36vw;
+    height: 94vh;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 2.1%;
+    overflow-y: scroll;
+}
+
+.label--input{
+    color: white;
+    font-size: 1vw;
+}
+
+.form--input{
+    width: 100%;
+    height: auto;
+    padding: 1vh;
+    background-color: #111;
+    color: white;
+    font-size: 1vw;
+}
+
+::placeholder{
+    font-size: 1vw;
+    color: #bbb;
+    background-color: #111;
+    line-height: 10%;
+}
+
+.form--input-submit{
+    width: 100%;
+    height: auto;
+    padding: 1.7vh;
+    color: white;
+    background-color: black;
+    font-size: 1.5vw;
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+.form--title{
+    font-size: 1.3vw;
+    text-align: center;
+    line-height: 150%;
+}
+
+
+.form--timeNdate-container{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    font-size: 1vw;
+    color: white;
+}
+
+
+.form--input-date{
+    background-color: #777;
+    width: 80%;
+}
+
+.form--input-time{
+    background-color: #777;
+    width: 80%;   
+}
+
+.form--date-container{
+    width: 100%;
+}
+
+.form--time-container{
+    width: 100%;
+}
+

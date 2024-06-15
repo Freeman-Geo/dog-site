@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Adopta un Perro</title>
+</head>
+<body class="generic--body">
+    <div class="hero--menu-container generic--menu-container cuentanos--menu">
+        <a href="/b-adopta.html" class="hero--menu generic--menu">
+            Adopta un Perro
+        </a>
+        <a href="/c-regala.html" class="hero--menu generic--menu">
+            Regala un Perro
+        </a>
+        <a href="/d-cuentanos.html" class="hero--menu">
+            Cuéntanos de tu Perro
+        </a>
+        <a href="/index.html" class="logo--img-container logo2--container">
+            <img src="/assets/img/logoGeoFreeman.png" class="logo--gf-img logo2--gf">
+        </a>
+    </div>
+
+    <form class="form--adopta-container">
+        <p class="label--input form--title">
+            Llena el siguiente cuestionario para adoptar a un Perro.<br>
+            Y el dueño se pondrá en contacto contigo.
+        </p><br>
+        <label for="name" class="label--input label--input-name">¿Cuál es tu nombre?<br><br>
+            <input type="text" id="name" class="form--input form--input-name" placeholder="John / Jane Doe">
+        </label><br><br><br><br>
+
+        <label for="perroId" class="label--input label--input-perroId">Escribe el Id del Perro que gustas adoptar<br><br>
+            <input type="number" id="perroId" class="form--input form--input-dogId" placeholder="Dog Id">
+        </label><br><br><br><br>
+
+        <label for="phone" class="label--input label--input-phone">¿Cuál es tu teléfono?<br><br>
+            <input type="phone" class="form--input form--input-phone" placeholder="555-555-5555">
+        </label><br><br><br><br>
+
+        <label for="email" class="label--input label--input-email">¿Cuál es tu E-mail?<br><br>
+            <input type="email" class="form--input form--input-email" placeholder="email@email.com">
+        </label><br><br><br><br>
+
+        <div class="form--timeNdate-container">
+            <div class="form--date-container">
+                <label for="date" class="label--input-date">¿Que día gustas que nos comuniquemos contigo?<br><br>
+                    <input type="date" class="form--input form--input-date" placeholder="Date">
+                </label><br><br><br><br>
+            </div>
+            <div class="form--time-container">
+                <label for="time" class="label--input-time">¿Cuál es la mejor hora <br>
+                    para llamarte?<br><br>
+                    <input type="time" class="form--input form--input-time" placeholder="Time">
+                </label><br><br><br><br>
+            </div>
+        </div>
+
+        <label for="perroId" class="label--input label--input-name">
+            <input type="submit" class="form--input-submit">
+        </label>
+    </form>
+    
+    <script src="/scripts.js"></script>
+</body>
+</html>
